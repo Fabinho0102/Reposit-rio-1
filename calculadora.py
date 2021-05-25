@@ -1,14 +1,17 @@
 a = int(input("Digite o valor de A:"))
 b = int(input("Digite o valor de B:"))
 
-operacao = input("+: Soma\n-: Subtração\n*: Multiplicação\n/: Divisão")
+operacao = input("+: Soma\n-: Subtração\n*: Multiplicação\n/: Divisão\n**: Exponenciação")
 if operacao == '+':
     resultado == a + b
 elif operacao =='-':
     resultado == a - b
 elif operacao == '*':
     resultado == a * b
-else:
+elif operacao == '/':
     resultado == a // b 
+
+else:
+    resultado == a ** b
 
 print(resultado)
